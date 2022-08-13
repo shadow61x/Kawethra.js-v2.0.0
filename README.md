@@ -53,4 +53,14 @@
      < body theme="dark"></body>
      </td>
 </tr>
+<tr>
+  <th>Hide</th>
+  <td>kw.api.hide("query", "delay")</td>
+  <td>kw.api.hide("div", 2000)</td>
+</tr>
+<tr>
+  <th>Show</th>
+  <td>kw.api.show("query", "delay")</td>
+  <td>kw.api.show("div", 2000)</td>
+</tr>
 </table>
