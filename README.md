@@ -63,4 +63,9 @@
   <td>kw.api.show("query", "delay")</td>
   <td>kw.api.show("div", 2000)</td>
 </tr>
+<tr>
+ <th>Button</th>
+ <td>kw.api.button(element, buttonText, theme)</td>
+ <td>kw.api.button("body","Kawethra", "dark")</td>
+</tr>
 </table>
