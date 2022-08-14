@@ -428,7 +428,7 @@ const kw = {
    };
   },
   clientLang: clientLang,
-  button: function (buttonText, theme) {
+  button: function (inner ,buttonText, theme) {
    theme = theme.toLowerCase();
    let button = document.createElement("button");
    button.style.border = "none";
@@ -476,7 +476,7 @@ const kw = {
     button.style.color = data.themeColors.pink.fg;
    }
    button.innerHTML = buttonText;
-   document.body.appendChild(button);
+   document.querySelector(inner).appendChild(button);
   },
  },
 };
