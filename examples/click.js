@@ -1,3 +1,3 @@
 kw.api.click("div",`
-console.log("Kawethra abim hawli");
+console.log("Kawethra abim hawli :)");
 `)
